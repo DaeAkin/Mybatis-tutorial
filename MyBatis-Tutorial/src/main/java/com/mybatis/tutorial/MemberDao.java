@@ -13,7 +13,7 @@ public class MemberDao {
 	}
 	
 	public int deleteMember(int no) {
-		
+		System.out.println("---- deleteMember() ----");
 		return sqlSession.delete("deleteMember", no);
 	}
 }
